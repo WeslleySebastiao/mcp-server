@@ -1,0 +1,10 @@
+# --- Server ---
+fastapi==0.115.0
+uvicorn==0.32.0
+
+# --- Utils ---
+python-dotenv==1.0.1
+
+# --- Optional ---
+pydantic==2.9.2 
+typing-extensions==4.12.2
