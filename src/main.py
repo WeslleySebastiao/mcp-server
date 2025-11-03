@@ -8,8 +8,4 @@ from utils.mcp_helpers import listar_tools
 logger = logging.getLogger(__name__)
 
 if __name__ == "__main__":
-    
-    count, tool_list = asyncio.run(listar_tools(mcp))
-    print(f"🔧 {count} tool(s) registrada(s): {tool_list}")
-
     mcp.run(transport="sse")
