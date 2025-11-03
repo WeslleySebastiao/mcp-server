@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 app = FastAPI(
     title = SERVER_NAME,
     descriptions = f"MCP server for running tool and more with agents - {SERVER_NAME}",
-    version = "0.1.0",
+    version = "0.1.1",
 )
 
 #Routes
