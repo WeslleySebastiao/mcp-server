@@ -1,4 +1,4 @@
-from server.mcp_instance import mcp
+from src.server.mcp_instance import mcp
 
 print(f"[DEBUG] basic_tools importou MCP -> id: {id(mcp)}")
 
