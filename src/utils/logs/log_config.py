@@ -1,5 +1,5 @@
 import logging
-from config import LOG_LEVEL
+from src.config import LOG_LEVEL
 
 logging.basicConfig(
     level=LOG_LEVEL.upper(),
