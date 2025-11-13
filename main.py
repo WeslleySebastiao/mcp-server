@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 if __name__ == "__main__":
     port = os.environ.get("PORT", 8000)
     host = os.environ.get("HOST", "0.0.0.0")
-    mcp.run(
+    mcp.serve(
         transport="sse",
         host=host,
         port=port
